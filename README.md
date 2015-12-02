@@ -7,10 +7,11 @@ Idea is:
   - since we're doing f(N) mod M where N >>>>> M, we can mod the intermediate results too. See ModMatrix class
 
 Given Matrix A: 
+```
 0 1 0
 0 0 1
 2 0 1
-
+```
 Can work out f(n) by calculating e_1^T * A^n e_3 
 
 where e_i are the standard 3 column vectors
